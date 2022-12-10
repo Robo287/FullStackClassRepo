@@ -1,0 +1,32 @@
+{
+  "name": "final-robo287",
+  "version": "1.0.0",
+  "description": "IMDB API Web Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "boobs": "echo \"Grow up!\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/COT4930-Spring-2022-Fullstack-Web/final-Robo287.git"
+  },
+  "author": "Anthony Robustelli - Z23478142",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/COT4930-Spring-2022-Fullstack-Web/final-Robo287/issues"
+  },
+  "homepage": "https://github.com/COT4930-Spring-2022-Fullstack-Web/final-Robo287#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.7",
+    "express": "^4.18.1",
+    "firebase": "^9.7.0",
+    "mongodb": "^4.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

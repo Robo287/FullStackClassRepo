@@ -1,0 +1,24 @@
+{
+  "name": "final-robo287",
+  "version": "1.0.0",
+  "description": "IMDB API Final Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/COT4930-Spring-2022-Fullstack-Web/final-Robo287.git"
+  },
+  "author": "Anthony Robustelli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/COT4930-Spring-2022-Fullstack-Web/final-Robo287/issues"
+  },
+  "homepage": "https://github.com/COT4930-Spring-2022-Fullstack-Web/final-Robo287#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "firebase": "^9.7.0"
+  }
+}

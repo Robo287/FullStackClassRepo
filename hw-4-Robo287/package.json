@@ -1,0 +1,25 @@
+{
+  "main": "studentserver.js",
+  "scripts": {
+    "start": "node publicjs/studentserver.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "fs": "^0.0.1-security",
+    "glob": "^7.2.0"
+  },
+  "name": "hw-4-robo287",
+  "description": "To clone this repository:\r 1. Open a terminal or command prompt Window\r 2. Use the `cd` command to change the directory/folder you want to save this repository to\r 3. Click on the green \"Code\" button in GitHub and copy the clone URL\r 4. In your terminal/command prompt, use the `git clone` command, followed the URL copied above.",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/COT4930-Spring-2022-Fullstack-Web/hw-4-Robo287.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/COT4930-Spring-2022-Fullstack-Web/hw-4-Robo287/issues"
+  },
+  "homepage": "https://github.com/COT4930-Spring-2022-Fullstack-Web/hw-4-Robo287#readme"
+}

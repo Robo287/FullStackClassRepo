@@ -1,0 +1,21 @@
+.form-div {
+    width: 35%;
+    margin: 0px auto;
+    margin-top: 10%;
+    padding: 20px;
+}
+
+.form-div input {
+    display: block;
+    padding: 7px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-div button {
+    display: block;
+    padding: 15px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}

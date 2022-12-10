@@ -1,0 +1,23 @@
+tbody {
+  display: block;
+  overflow-y: auto;
+}
+
+.main {
+  padding: 0px 10px;
+}
+
+.search-table {
+    width: 100%;
+}
+
+.search-input {
+    width: 100%;
+}
+
+.center-content {
+  margin: auto;
+  width: 50%;
+  top: 25%;
+  margin-top: 5%;
+}

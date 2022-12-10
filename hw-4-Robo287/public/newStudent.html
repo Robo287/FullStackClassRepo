@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="author" content="Anthony Robustelli - Z23478142" />
+        <title>New Student</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="./styles/styles.css" rel="stylesheet" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!-- Script File Defenition-->
+        <script src="js/studentserver.js"></script>
+        <script src="js/scripts.js"></script>
+    </head>
+    <body>
+        <!-- Masthead-->
+        <div class="masthead">
+            <div class="masthead-content text-white">
+                <div class="container-fluid px-4 px-lg-0">
+                    <h1 class="fst-italic lh-1 mb-4">Add A New Student</h1>
+                    <div id="newStudentForm">
+                        <div>
+                            <div class="row input-group-newsletter">
+                                <input class="row form-control-lg" id="newfname" name="newfname" type="text" placeholder="First Name" />
+                                <input class="row form-control-lg" id="newlname" type="text" placeholder="Last Name" />
+                                <input class="row form-control-lg" id="newGPA" type="text" placeholder="GPA" />
+                            </div>
+                            <div class="form-control-lg form-check form-switch">
+                                <input class="form-check-input" id="newIsEnrolled" name="newIsEnrolled" type="checkbox">
+                                <label class="form-check-label" for="flexSwitchCheckDefault">Enrolled?</label>
+                            </div>
+                            <div class="row input-group-newsletter">
+                                <div class="col-auto">
+                                    <button class="btn btn-primary" id="createNewButton" onclick="sendPostStudents()">Add Student</button>
+                                </div>
+                                <div class="col-auto">
+                                    <form action="searchResults.html">
+                                        <button class="btn btn-primary" type="submit" id="cancelButton">Cancel</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="response" name="response">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
